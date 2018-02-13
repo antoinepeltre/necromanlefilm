@@ -1,0 +1,131 @@
+body {
+	margin:0px;
+	font-family: 'avenir';
+}
+
+.container__content {
+	background-color:#000;
+	height:100vh;
+	width: 100%;
+}
+
+.container__rightMenu {
+	background-color:#460505;
+	position: absolute;
+	width:7%;
+	height:100vh;
+}
+
+.container__rsMenu {
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	bottom: 20px;
+	text-align: center;
+}
+
+.imgItem {
+	width: 40%;
+}
+
+.title__section {
+	padding-top:40px;
+	text-align: center;
+}
+
+.title__section h1 {
+	font-size:80px;
+	color:#460505;
+	text-align: center;
+	font-family: 'Lusitana', serif;
+	letter-spacing: 7px;
+	text-transform: uppercase;
+	margin:0px;
+	font-weight: lighter;
+}
+
+.sub__title {
+	top: 50px;
+	text-align: center;
+}
+
+.sub__title h3 {
+	color:#fff;
+	text-transform: uppercase;
+	margin-top:0px;
+	letter-spacing: 8px;
+}
+
+.button__discover {
+	position: absolute;
+	bottom:50px;
+	left:50%;
+	transform:translateX(-50%);
+}
+
+.button__discover button {
+	background-color: #460505;
+	border:none;
+	color:#fff;
+	padding:15px 50px;
+	text-transform: uppercase;
+	cursor: pointer;
+	outline: none;
+	letter-spacing: 5px;
+}
+
+.item__menu {
+	color: #fff;
+	text-align: center;
+	margin-top:20px;
+	cursor: pointer;
+}
+
+.hamburger{
+  background:none;
+  position:absolute;
+  margin-top:20px;
+  left:20px;
+  line-height:45px;
+  padding:5px 15px 0px 15px;
+  color:#FFF;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.cross{
+  background:none;
+  position:absolute;
+  top:0px;
+  right:0;
+  padding:7px 15px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#f1f1f1;  position:absolute; text-align:center; font-size:12px;}
+.menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+.menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;text-transform: uppercase;}
+.menu li:hover{display: block;    background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.menu ul li a { text-decoration:none;  margin: 0px; color:#666;}
+.menu ul li a:hover {  color: #666; text-decoration:none;}
+.menu a{text-decoration:none; color:#666;}
+.menu a:hover{text-decoration:none; color:#666;}
+
+.glyphicon-home{
+  color:white;
+  font-size:1.5em;
+  margin-top:5px;
+  margin:0 auto;
+}
+header{display:inline-block; font-size:12px;}
+span{padding-left:20px;}
+a{color:#336699;}
