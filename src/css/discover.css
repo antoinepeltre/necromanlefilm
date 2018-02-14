@@ -1,5 +1,14 @@
 *{
   color:#fff;
+
+}
+
+.container__content {
+	background-color:#000;
+	height:100vh;
+	width: 100%;
+	background-image: none;
+
 }
 
 .sub__title {
@@ -10,23 +19,92 @@
   flex-direction: row;
   display:flex;
   justify-content: space-around;
-  margin-top:160px;
+  margin-top:110px;
   margin-left: 80px;
 }
 
 .item__discover h4{
   text-align: center;
   font-size: 18px;
+  color: #460505;
+  font-size: 25px;
+  font-weight: bold;
 
 }
 
 .container__picture {
+  transition:1s all;
   width:430px;
   height: 250px;
   background-color: gray;
+  border-radius: 5px;
+  filter: blur(5px);
+      -webkit-filter: blur(5px);
+      -moz-filter: blur(5px);
+      -o-filter: blur(5px);
+      -ms-filter: blur(5px);[/i]
+}
+
+.container__picture:hover {
+
+  filter: blur(0px);
+      -webkit-filter: blur(0px);
+      -moz-filter: blur(0px);
+      -o-filter: blur(0px);
+      -ms-filter: blur(0px);[/i]
 }
 
 .container__picture.one {
   background-image: url('../images/img1.jpg');
   background-size:cover;
+}
+
+.container__picture.two {
+  background-image: url('../images/lieux.jpg');
+  background-size:cover;
+}
+
+.content__slides {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.full_namePeople {
+  margin:0px;
+  padding-top:40px;
+  text-transform: uppercase;
+  font-size:25px;
+}
+
+.img__people {
+
+  background-size: cover;
+  width: 600px;
+  height: 300px;
+  text-align: center;
+  margin: auto;
+  margin-top: 80px;
+  border-radius: 5px;
+}
+
+.img__people.joshua {
+  background-image: url('../images/joshua.jpg');
+}
+
+.container__description {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+
+.item__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.item__container p {
+  margin:10px 0px;
 }

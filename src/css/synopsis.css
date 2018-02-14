@@ -1,0 +1,19 @@
+.container__content {
+  background-color: #000;
+  color:#fff;
+}
+
+.content__synopsis {
+  position: absolute;
+  left: 60%;
+  top:30%;
+  transform: translateX(-40%);
+  height:300px;
+  overflow: scroll;
+  border:1px solid gray;
+  padding:50px;
+}
+
+.content__text {
+  height:150px;
+}

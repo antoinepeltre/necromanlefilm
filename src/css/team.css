@@ -1,0 +1,57 @@
+body {
+  margin:0px !important;
+}
+
+.content__team {
+  background-color: #000;
+  height:100%;
+  font-family: 'avenir';
+
+}
+
+
+.content__team h2{
+  text-align: center;
+  margin: 0px !important;
+  color: #fff;
+  padding-top:40px;
+
+}
+
+.container__pictureTeam {
+  padding-top: 40px;
+}
+
+.content__people {
+  text-align: center;
+}
+
+.line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.firstLine {
+  margin-top:50px;
+}
+
+.picture__rond {
+  height:120px;
+  width: 120px;
+  border-radius: 50%;
+  background-color: gray;
+  margin:auto;
+  text-align: center;
+}
+
+.name__people {
+  color:#fff;
+  margin:10px 0px;
+}
+
+.role__people {
+  color:#7F2725;
+  margin:10px 0px;
+}
