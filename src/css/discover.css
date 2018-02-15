@@ -130,6 +130,23 @@
   background-position-x: -150px;
 }
 
+.contain__imgPeople.guelia {
+  background-image: url('../images/guelia.jpg');
+  background-position-x: -150px;
+}
+
+.contain__imgPeople.amadeo {
+  background-image: url('../images/amadeo.jpg');
+  background-position-y: -80px;
+  background-repeat: no-repeat;
+}
+
+.contain__imgPeople.dolly {
+  background-image: url('../images/dolly.jpg');
+  background-position-x: -150px;
+  background-repeat: no-repeat;
+}
+
 .container__descriptionText {
   text-align: left;
   padding-left: 50px;
