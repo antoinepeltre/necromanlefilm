@@ -65,7 +65,7 @@
 }
 
 .content__slides {
-    width: 70%;
+    width: 100%;
     margin: auto;
     text-align: center;
 }
@@ -107,4 +107,38 @@
 
 .item__container p {
   margin:10px 0px;
+}
+
+.container__people {
+  display: flex;
+  flex-direction: row;
+  justify-content: ;
+  padding-top:100px;
+  padding-left: 200px;
+}
+
+.contain__imgPeople {
+  background-size: cover;
+  border-radius: 5px;
+  height:400px;
+  width:300px;
+
+}
+
+.contain__imgPeople.joshua {
+  background-image: url('../images/joshua.jpg');
+  background-position-x: -150px;
+}
+
+.container__descriptionText {
+  text-align: left;
+  padding-left: 50px;
+}
+
+.name__people {
+  text-align: center;
+  font-size:30px;
+  margin:0px;
+  padding-top:30px;
+  font-family: 'lusitana';
 }
