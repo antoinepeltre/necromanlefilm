@@ -1,6 +1,6 @@
 body{
 	background-color:#000;
-	background-image:url('../images/flashlight3.png');
+	background-image:url('../images/light2.png');
   background-size:40%;
 	background-repeat:no-repeat;
 	background-position:50% 50%;
@@ -26,7 +26,7 @@ body{
 
 .subtitle {
   color:#000;
-  font-family: 'Lusitana', serif;
+  font-family: 'avenir';
   font-weight: lighter !important;
   margin: auto;
   text-align: center;
@@ -82,6 +82,7 @@ body{
 
 .sub__title {
   font-size:13px;
+	font-family: 'avenir';
 }
 
 .fullButton {
