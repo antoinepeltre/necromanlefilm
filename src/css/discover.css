@@ -148,8 +148,12 @@
 }
 
 .container__descriptionText {
-  text-align: left;
-  padding-left: 50px;
+    text-align: left;
+    padding-left: 50px;
+    width: 50%;
+    letter-spacing: 2px;
+    line-height: 22px;
+    font-weight: 100;
 }
 
 .name__people {
@@ -158,4 +162,9 @@
   margin:0px;
   padding-top:30px;
   font-family: 'lusitana';
+}
+
+.name__peopleName {
+  font-size:25px;
+
 }

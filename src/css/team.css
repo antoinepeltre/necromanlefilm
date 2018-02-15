@@ -40,7 +40,7 @@ body {
   height:120px;
   width: 120px;
   border-radius: 50%;
-  background-color: gray;
+  background-size: cover;
   margin:auto;
   text-align: center;
 }
@@ -53,4 +53,53 @@ body {
 .role__people {
   color:#7F2725;
   margin:10px 0px;
+}
+
+.picture__rond.julien {
+  background-image: url('../images/julien.jpg');
+}
+
+.picture__rond.armand {
+  background-image: url('../images/armand.jpg');
+  background-position-x:-30px;
+}
+
+.picture__rond.armand {
+  background-image: url('../images/armand.jpg');
+  background-position-x:-30px;
+}
+
+.picture__rond.masis {
+  background-image: url('../images/masis.jpg');
+  background-position-x:-70px;
+}
+
+.picture__rond.saulnier {
+  background-image: url('../images/clem.jpg');
+  background-position-x:-20px;
+}
+
+.picture__rond.leo {
+  background-image: url('../images/leo.jpg');
+  background-position-x:0px;
+}
+
+.picture__rond.cyprien {
+  background-image: url('../images/cyprien.png');
+  background-position-x:0px;
+}
+
+.picture__rond.lea {
+  background-image: url('../images/lea.jpg');
+  background-position-x:0px;
+}
+
+.picture__rond.marion {
+  background-image: url('../images/marion.jpg');
+  background-position-x:-30px;
+}
+
+.picture__rond.antoine {
+  background-image: url('../images/antoine.jpg');
+  background-position-x:10px;
 }
